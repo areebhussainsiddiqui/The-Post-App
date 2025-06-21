@@ -47,10 +47,18 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    //Hilt
     implementation(libs.hilt.android)
     ksp(libs.hilt.android.compiler)
 
+    //Retrofit
     implementation(libs.retrofit)
     implementation (libs.converter.gson)
 
+    //Coroutines
+    implementation(libs.kotlinx.coroutines.android)
+
+    //ViewModeLifecycle
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
 }
