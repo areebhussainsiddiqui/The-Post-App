@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.ahs.thepostapp.databinding.ItemPostBinding
 import com.ahs.thepostapp.model.Posts
 
-class PostsAdapter : RecyclerView.Adapter<PostsAdapter.PostViewHolder>() {
+class PostsAdapter() : RecyclerView.Adapter<PostsAdapter.PostViewHolder>() {
 
     class PostViewHolder(val binding: ItemPostBinding) : RecyclerView.ViewHolder(binding.root){
 
